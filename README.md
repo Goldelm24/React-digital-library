@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+# Full-stack Digital Library App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Techonoligies Used
 
 In the project directory, you can run:
 
