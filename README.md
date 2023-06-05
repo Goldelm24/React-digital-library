@@ -41,6 +41,7 @@ Users are also able to add a brand new book using form input from the same page.
 2. After the repository is cloned, navigate to the project directory using the following command: <br />
     ``cd React-digital-library
     ``
-3. Lastly run this command to download all dependecies <br/ >
+3. Lastly run this command to download all dependecies <br />
       ``npm install
       ``
+## Final Product ![Digital Library](https://react-digital-library-7e8a5.web.app/)
