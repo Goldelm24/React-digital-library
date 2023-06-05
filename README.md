@@ -21,7 +21,7 @@ Users are also able to add a brand new book using form input from the same page.
 ![](books.png)
 
 
-## Techonoligies Used
+## Languages, libraries/frameworks:
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
 ![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
