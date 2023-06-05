@@ -1,6 +1,21 @@
-# Full-stack Digital Library App
+# Full-stack React/Flask Digital Library App
+I built a digital library project for developers using Flask for my backend, and React as my frontend UI. The application is geared towards those who love keeping track of their books and provides a space for them to create, update and showcase their collection of their book library. Once a user registers on the backend, they have an API key which allows them to perform CRUD operations from a frontend source. My React frontend allows any authenticated users to display and update their book data in a DataTable component.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What it does:
+1. Backend - User Registration/Authentication
+Used form input to collect a user’s email and password. I passed that data into a SQLAlchemy User model that automatically generated a user id, api token, and hashed password to store in the database along with their email. Upon login, I query the database for the user’s email – if the stored password hash matches the password they used to login, I will take them to a page that displays all of their user info.
+
+2. Backend - CRUD Operations
+I built 5 API endpoints for a logged-in user to Create, Retrieve, Update, and Delete books from their personal collection. The Create and Update routes expect a JSON object full of book information in the body. Each route takes in a user id and expects the user’s API token to appear as an x-access-token in the header. All routes are protected  with a custom decorator that authenticates a user by querying the database for their email and API token.
+
+3. Frontend - User Login
+I used Firebase Authentication to allow users to log in using existing Google credentials. I protected Drone CRUD pages with Firebase AuthGuard component, so users are required to log in before accessing any information that is not theirs. Several contents on the site change dynamically based upon a user’s login status.
+
+4. Frontend - Data Display / Creation
+I created a data table component that automatically makes a GET request to the backend server when a user visits the page. Based on the user’s credentials, all of their books will populate the table. Each book record has a checkbox with a pop-up modal with an Update or Delete form. If a user wants to update a book, they fill out a form with new attributes and that information is sent to the backend update route. If they want to delete a drone, they can do so at the click of a button and send a delete request. 
+Users are also able to add a brand new book using form input from the same page.
+
+
 
 ## Techonoligies Used
 
