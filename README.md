@@ -2,6 +2,7 @@
 I built a digital library project for developers using Flask for my backend, and React as my frontend UI. The application is geared towards those who love keeping track of their books and provides a space for them to create, update and showcase their collection of their book library. Once a user registers on the backend, they have an API key which allows them to perform CRUD operations from a frontend source. My React frontend allows any authenticated users to display and update their book data in a DataTable component.
 
 ![](Digital-library.png)
+![](sign-in.png)
 
 ## What it does:
 1. Backend - User Registration/Authentication
