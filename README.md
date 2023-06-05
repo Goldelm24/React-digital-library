@@ -1,6 +1,8 @@
 # Full-stack React/Flask Digital Library App
 I built a digital library project for developers using Flask for my backend, and React as my frontend UI. The application is geared towards those who love keeping track of their books and provides a space for them to create, update and showcase their collection of their book library. Once a user registers on the backend, they have an API key which allows them to perform CRUD operations from a frontend source. My React frontend allows any authenticated users to display and update their book data in a DataTable component.
 
+![](Digital-library.png)
+
 ## What it does:
 1. Backend - User Registration/Authentication
 Used form input to collect a user’s email and password. I passed that data into a SQLAlchemy User model that automatically generated a user id, api token, and hashed password to store in the database along with their email. Upon login, I query the database for the user’s email – if the stored password hash matches the password they used to login, I will take them to a page that displays all of their user info.
