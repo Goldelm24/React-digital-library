@@ -44,4 +44,5 @@ Users are also able to add a brand new book using form input from the same page.
 3. Lastly run this command to download all dependecies <br />
       ``npm install
       ``
-## Final Product ![Digital Library](https://react-digital-library-7e8a5.web.app/)
+## Final Product 
+[Digital Library](https://react-digital-library-7e8a5.web.app/)
