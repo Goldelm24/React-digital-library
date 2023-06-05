@@ -18,6 +18,7 @@ I used Firebase Authentication to allow users to log in using existing Google cr
 I created a data table component that automatically makes a GET request to the backend server when a user visits the page. Based on the user’s credentials, all of their books will populate the table. Each book record has a checkbox with a pop-up modal with an Update or Delete form. If a user wants to update a book, they fill out a form with new attributes and that information is sent to the backend update route. If they want to delete a drone, they can do so at the click of a button and send a delete request. 
 Users are also able to add a brand new book using form input from the same page.
 
+![](books.png)
 
 
 ## Techonoligies Used
