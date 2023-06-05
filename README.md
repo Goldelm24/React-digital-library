@@ -35,12 +35,12 @@ Users are also able to add a brand new book using form input from the same page.
 ### Get Started
 
 1. Cloning repo
-   Open terminal and paste the command below:
+   Open terminal and paste the command below: <br />
   ``git clone https://github.com/Goldelm24/React-digital-library.git
   ``
-2. After the repository is cloned, navigate to the project directory using the following command:
+2. After the repository is cloned, navigate to the project directory using the following command: <br />
     ``cd React-digital-library
     ``
-3. Lastly run this command to download all dependecies
+3. Lastly run this command to download all dependecies <br/ >
       ``npm install
       ``
